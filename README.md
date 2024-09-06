@@ -15,15 +15,13 @@ print(n * i)
 i += 1
 
 # USING FOR LOOP:
-
+```
 n = int(input("Enter number", ))
 
 for i in range(1,11):
-<br>
-print(n * i)
-<br>
-i += 1
-
+    print(n * i)
+    i += 1
+```
 [END OF THE FIRST QUESTION].
 
 #2)  PRINT THE ELEMENTS OF THE LIST
