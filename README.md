@@ -41,7 +41,11 @@ IS TILL 5 ONLY AND WE GET THE NUMBERS PRINTED FROM 1 TO 5.
 ```
 
 ```
-FOR LOOPS:
+FOR LOOP: A FOR LOOP EXECUTES A SECTION OF CODE ONCE FOR AN ITEM IN A COLLECTION OF ITEMS.
+It starts with a for keyword, followed by membership expression and ends with a semicolon(:).
+THE LOOP BODY CONTAINS THE CODE AND HAS AN INDENTATION OF 4 SPACES.
+
+
 
 
 
