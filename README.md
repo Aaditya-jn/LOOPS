@@ -1,86 +1,49 @@
 # Loops
 
-
-1)  PRINT THEMULTIPLICATION NUMBER OF A NUMBER n TILL 10
-# USING WHILE LOOP:
-
-n = int(input("Enter number", ))
-
-i = 1
-<br>
-while i < 10:
-
-print(n * i)
-<br>
-i += 1
-
-# USING FOR LOOP:
 ```
-n = int(input("Enter number", ))
+DEFINITION:
+A LOOP IS A BLOCK OF CODE WHICH GETS REPEATED OVER AND OVER AGAIN UNTIL SOME CONDITION STOPS IT.
+THERE ARE TWO TYPES OF LOOPS; WHILE LOOP ND FOR LOOP.
 
-for i in range(1,11):
-    print(n * i)
-    i += 1
 ```
-[END OF THE FIRST QUESTION].
 
-#2)  PRINT THE ELEMENTS OF THE LIST
-      nums = [1, 4, 9, 16, 25, 36, 49, 64, 81, 100]
+```
+WHILE LOOP: WHILE LOOPS RUN UNTIL SOME CONDITION IS TRUE.
+It starts with while keyword followed by a testcondition and a semicolon.
+Loop body evaluates repeatedly. Each line has a indentation of 4 spaces.
 
-# USING WHILE LOOP:
+WHEN A WHILE LOOP IN PYTHON IS EXECUTED, FIRST PYTHON CHECKS THAT IF THE
+TEST CONDITION IS TRUE OR FALSE, IF IT IS TRUE THEN THE CODE IS EXECUTED
+AND WE THE THE DESIRED OUTPUT. IF IT IS FALSE THEN THE CODE IN THE LOOP BODY
+IS NOT EXECUTED BUT THE REST OF THE PROGRAM IS EXECUTED.
 
-idx = 0
-<br>
-while idx < len(nums):
-<br>
-print(idx)
-<br>
-idx += 1
+If we execute a code in IDLE:
 
-# USING FOR LOOP:
+n = 1
+while n < 6:
+    print(n)
 
-idx = 0
-<br>
-for elm in nums:
-<br>
-print(elm)
+THE CODE ABOVE IS AN INFINITE CODE AND IS NEVER GOING TO END BCOZ
+WHEN WE SEE THE TESTCONDITION, IT TELLS THAT WHEN VALUE OF n IS LESS THAN
+6, PRINT n. THE VALUE OF n IS 1 . SO IT KEEPS PRINTING 1 INFINITE TIMES.
 
+n = 1
+while n < 6:
+    print(n)
+    n += 1
 
-#3)  SEARCH FOR A NUMBER x IN THIS TUPLE
-      numrs = (1, 4, 9, 16, 25, 36, 49, 64, 81, 100)
-
-# USING WHILE LOOP:
-
-x = 64
-
-i = 0
-
-while i < len(numrs):
-<br>
-if(numrs[i] == x):
-<br>
-print("Number found at idx", i)
-<br>
-i += 1
+THIS CODE PRINTS THE NO.S FROM 1 TO 5. NOTE HERE THAT NOW 1 DOES NOT KEEP
+PRINTING INFINITE TIMES AS WE HAVE PASSED A CONDITION THAT WHEN VALUE OF N IS
+LESS THAN 6, PRINT n. AS WELL AS WE ARE GOING TO INCREASE THE VALUE OF N BY 1.
+SO THE NEXT VALUE OF n BECOMES 2 THEN 3,4,5. TILL 5 IT STOPS BECOZ THE TESTCONDITION
+IS TILL 5 ONLY AND WE GET THE NUMBERS PRINTED FROM 1 TO 5.
 
 
 
-# USING FOR LOOP:
 
 
-x = 49
 
-idx = 0
 
-for el in nums:
-<br>
-if(el == x):
-<br>
-print("Number found at idx", idx)
-<br>
-idx += 1
-
-    
 
 
     
