@@ -45,6 +45,77 @@ FOR LOOP: A FOR LOOP EXECUTES A SECTION OF CODE ONCE FOR AN ITEM IN A COLLECTION
 It starts with a for keyword, followed by membership expression and ends with a semicolon(:).
 THE LOOP BODY CONTAINS THE CODE AND HAS AN INDENTATION OF 4 SPACES.
 
+>>>name = "Aaditya"
+>>>for i in name:
+>>>    print(i)
+   
+A
+a
+d
+i
+t
+y
+a
+
+
+~FOR LOOPS ARE BETTER THAN WHILE LOOPS BECOZ THEY ARE EASY TO READ AND TYPE. FOR EX:
+A code to print all letters of the word python in a while loop:
+
+
+str = "Python"
+idx = 0
+
+while idx < len(str):
+    print(str[idx])
+    idx += 1
+
+    
+P
+y
+t
+h
+o
+n
+
+WHEREAS TO PRINT ALL LETTERS OF THE WORD python IN A FOR LOOP:
+
+val = "Python"
+for i in val:
+    print(i)
+
+    
+P
+y
+t
+h
+o
+n
+
+```
+
+```
+RANGE FUNCTION: IT GIVES RANGE OF NUMBERS
+
+range(0,3) is 0, 1, 2
+
+
+range(start, stop, gap). THIS IS THE BASIC CONCEPT
+LIKE range(2, 20, 2) PRINTS THE TABLE OF 2 TILL 20 AS THERE IS GAP == 2 SO IT CREATES A MULTIPLICATION TABLE WHICH IS NOT THERE IN WHILE LOOPS.
+
+
+SUPPOSE THIS BELOW CODE:
+
+for n in range(10, 20):
+print(n * n)
+
+WHAT HAPPENS HERE IS WHEN VAL OF N IS 10 THEN 10*10 IS CALCULATED WHICH IS 100
+TILL 19 IT HAPPENS BUT NOT FOR 20
+
+range(10,20)
+print(n * n)
+THIS MEANS THAT WHEN WE START FROM 10 AND FINISH TILL 20
+THEN WHAT HAPPENS IS 10*10 = 100 IS PRINTED THEN 11*11 = 121 IS PRINTED TILL 19*19 = 361.
+
 
 
 
