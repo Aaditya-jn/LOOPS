@@ -186,6 +186,67 @@ printed to the console.
 
 ```
 
+```
+PRACTICE QUESTIONS:
+
+1. Write a for loop that prints out the integers 2 through 10, each on a new line,
+by using the range() function.
+
+for i in range(2, 11):
+    print(i)
+
+2
+3
+4
+5
+6
+7
+8
+9
+10
+
+
+2. Use a while loop that prints out the integers 2 through 10 (Hint:
+You’ll need to create a new integer ﬁrst.)
+
+
+i = 2
+while i < 11:
+    print(i)
+    i += 1
+    
+2
+3
+4
+5
+6
+7
+8
+9
+10
+
+3. Print the elements of the list using while loop
+
+      list = [1, 4, 9 ,16, 25, 36, 49, 64, 81, 100]
+
+idx = 0
+while idx < len(list):
+    print(list[idx])
+    idx += 1
+    
+1
+4
+9
+16
+25
+36
+49
+64
+81
+100
+
+
+
 
 
 
