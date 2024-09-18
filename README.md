@@ -116,6 +116,76 @@ print(n * n)
 THIS MEANS THAT WHEN WE START FROM 10 AND FINISH TILL 20
 THEN WHAT HAPPENS IS 10*10 = 100 IS PRINTED THEN 11*11 = 121 IS PRINTED TILL 19*19 = 361.
 
+```
+
+```
+A PRACTICAL EXAMPLE:
+
+The following program asks the user to input an amount and then displays how to split that amount be-
+tween 2, 3, 4, and 5 people and upto 3 decimal places:
+
+
+amount = float(input("Enter the amount : "))
+
+for people i nrange(2, 6):
+    print(f"{people} people : rupee {amount / people:,.3f } each" )
+
+
+Enter an amount: 10
+2 people: rupee 5.000 each
+3 people: rupee 3.333 each
+4 people: rupee 2.500 each
+5 people: rupee 2.000 each
+
+```
+
+```
+NESTED LOOPS:
+We can put loops in loops too:
+
+TYPE THIS CODE IN IDLE:
+
+for n in range(1, 4):
+    for j in range(4, 7):
+        print(f"n = {n} and j = {j}")
+
+n = 1 and j = 4
+n = 1 and j = 5
+n = 1 and j = 6
+n = 2 and j = 4
+n = 2 and j = 5
+n = 2 and j = 6
+n = 3 and j = 4
+n = 3 and j = 5
+n = 3 and j = 6
+
+
+The explanation of the above code is that when we write the for loop for n starting from
+1 till 3 and then we again write a for loop for j starting from 4 till 6 and then we write print
+using the f strings then first n is assigned to the value 1 and in next line value of j is assigned as 4
+and "n = 1 and j = 4" is printed. Now we expect the loop to be started from outer(n wala for loop) but in reaity
+i starts from inner(j wala for loop) and when the inner loop starts, the value of n is assiggned 1 only till j apni max
+range tk nhi pahunch jata.
+
+
+
+When Python enters the body of the ﬁrst for loop, the variable n is assigned the value 1.
+Then the body of the second for loop is executed and j is assigned the value 4.
+The ﬁrst thing printed is n = 1 and j = 4.
+
+After executing the print() function, Python returns to the inner for
+loop, assigns to j the value of 5, and then prints n = 1 and j = 5. Python
+doesn’t return the outer for loop because the inner for loop, which is
+inside the body of the outer for loop, isn’t done executing.
+Next, j is assigned the value 6 and Python prints n = 1 and j = 6. At
+this point, the inner for loop is done executing, so control returns to
+the outer for loop.
+The variable n gets assigned the value 2, and the inner for loop executes
+a second time. That is, j is assigned the value 4 and n = 2 and j = 4 is
+printed to the console.
+
+```
+
 
 
 
