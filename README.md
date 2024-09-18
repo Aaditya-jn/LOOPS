@@ -247,6 +247,52 @@ while idx < len(list):
 
 
 
+4. SEARCH FOR A NUMBER x IN THIS TUPLE USING WHILE LOOP.
+      numrs = (1, 4, 9, 16, 25, 36, 49, 64, 81, 100)
+
+
+x = 64
+
+i = 0
+
+while i < len(numrs):
+    if(numrs[i] == x):
+        print("Number found at idx", i)
+         i += 1
+
+
+5. SEARCH FOR A NUMBER x IN THIS TUPLE USING FOR LOOP.
+      numrs = (1, 4, 9, 16, 25, 36, 49, 64, 81, 100)
+
+
+x = 64
+
+idx = 0
+for el in numrs:
+    if(el == x):
+        print("Number found at idx", idx)
+        idx += 1
+
+
+6. Print the multiplication table of a number n using while loop
+
+n = int(input("Enter number : "))
+
+i = 1
+while i < 11:
+    print(n * i) 
+
+
+7. Print the multiplication table of a number n using for loop
+
+n = int(input("Enter number : "))
+
+for i in range(1, 11):
+    print(n * i)
+
+```
+
+
 
 
 
